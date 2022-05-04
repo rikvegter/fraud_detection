@@ -23,7 +23,6 @@ def run_ghost(train_df, features_train, labels_train, features_test, labels_test
     if classifier == "RF":
         clf = train_RF(train_df, NUM_OF_TREES)
 
-
     #Create a new train dataframe with the new dimensions
     #labels_np = labels_train.to_numpy()
     #train_df = features_train
@@ -35,7 +34,7 @@ def run_ghost(train_df, features_train, labels_train, features_test, labels_test
 
     #Attach probabilities to test set
     probs_test = clf.predict_proba(features_test)[:,1]
-    import pdb; pdb.set_trace()
+    
     #utility_scores = probs_test *
 
     #scores = [1 if x>=thresh_sub else 0 for x in probs_test]

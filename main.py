@@ -65,7 +65,7 @@ def main(train_df, test_df, algorithm):
         return
 
     if CROSS_VAL:
-        return  , EE, auprc
+        return  auc_tmp, EE, auprc
 
 
 if __name__ == "__main__":

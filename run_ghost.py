@@ -6,7 +6,7 @@ import numpy as np
 NUM_OF_TREES = 250
 
 def run_ghost(train_df, max_ee, features_train, labels_train, features_test, labels_test, classifier, random_seed):
-        '''
+    '''
     This function runs the GHOST algorithm and returns the evaluation metrics
     :param features_train: Pandas dataframe containing the features of the training data
     :param max_ee: Float containing the maximum economic as a result of perfect classification

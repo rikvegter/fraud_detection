@@ -7,7 +7,8 @@ This repository contains the pipelines used for repdocuding the results of my ma
 2. Download the zipped data from https://www.dropbox.com/home/Master%20Thesis%20data and unzip in same directory
 2. Create a folder 'data' and put both data files in this folder.
 3. Download requirements with the following command: pip3 install -r requirements.txt
-4. Follow run instructions
+4. The imblearn library should be downloaded separately. Run the following command: pip install -U imbalanced-learn.
+5. Follow run instructions
 
 **Run instructions:**
 1. python3 main.py

@@ -10,7 +10,7 @@ NUM_PRED_FEATURES = 6
 
 
 def run_svmrfe(features_train, max_ee, labels_train, features_test, labels_test):
-        '''
+    '''
     This function runs the SVMRFE algorithm and returns the evaluation metrics
     :param features_train: Pandas dataframe containing the features of the training data
     :param max_ee: Float containing the maximum economic as a result of perfect classification

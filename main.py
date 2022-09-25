@@ -71,7 +71,7 @@ def main(train_df, test_df, algorithm):
 if __name__ == "__main__":
     #Read data
 
-    DATA = input('Which dataset? (1) for Europe, (2) for PaySim, (3) for Vesta\n')
+    DATA = input('Which dataset? (1) for Europe, (2) for PaySim\n')
     if DATA == '1':
         data_file_name = "data/creditcard.csv"
         df = read_csv_as_pd(data_file_name)
